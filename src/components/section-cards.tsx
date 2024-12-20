@@ -87,7 +87,8 @@ export function SectionCards() {
 
     animateCards(leftImages, 50)
     animateCards(rightImages, -50)
-  }, [])
+    
+  }, [MockupRef, titleRef, section, Card01Ref, Card02Ref, Card03Ref, Card04Ref, Card05Ref, Card06Ref, animateCards])
   return (
     <>
       <section className=" w-full pb-20 " ref={sectionRef}>
